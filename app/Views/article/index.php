@@ -6,6 +6,7 @@
  * transmise par le contrôleur ArticleController.
  * Chaque entrée du tableau contient au minimum : id, title, body.
  */
+
 ?>
 <h1>Articles</h1>
 
