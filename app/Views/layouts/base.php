@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Layout principal
  * -----------------
@@ -8,6 +9,7 @@
 ?>
 <!doctype html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
 
@@ -17,12 +19,14 @@
   <!-- Bonne pratique : rendre le site responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/assets/style.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/.png" href="/assets/images/favicon.png">
 </head>
+
 <body>
   <!-- Menu de navigation global -->
   <nav>
-    <a href="/">Accueil</a> | 
+    <a href="/">Accueil</a> |
     <a href="/articles">Articles</a> |
     <a href="/about">À propos</a>
 
@@ -33,4 +37,5 @@
     <?= $content ?>
   </main>
 </body>
+
 </html>

@@ -2,6 +2,9 @@
 
 require __DIR__ . '/../vendor/autoload.php'; // Chargement de l'autoloader généré par Composer
 
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../");
+$dotenv->safeLoad();
+
 // Importation des classes avec namespaces pour éviter les conflits de noms
 use Core\Router;
 
